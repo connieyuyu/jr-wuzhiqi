@@ -1,0 +1,75 @@
+.timer {
+  margin: 50px 50px;
+}
+
+.timer .timer__btn {
+  width: 100px;
+  margin-right: 10px;
+  padding: 20px;
+  background-color: lightcoral;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+
+.timer .timer__time {
+  font-size: 1.5em;
+}
+
+.container {
+  position: relative;
+}
+
+.board {
+  width: 820px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.board__background {
+  width: 820px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+  -webkit-transform: translate(50px, 50px);
+          transform: translate(50px, 50px);
+}
+
+.grid {
+  width: 100px;
+  height: 100px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100;
+          flex: 0 0 100;
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
+  border-radius: 50%;
+}
+
+.grid__background {
+  border: 1px solid #eee;
+  width: 100px;
+  height: 100px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100;
+          flex: 0 0 100;
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
+}
+
+.white {
+  background-color: #ccc;
+}
+
+.black {
+  background-color: #000;
+}
+/*# sourceMappingURL=main.css.map */
